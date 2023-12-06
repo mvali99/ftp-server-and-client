@@ -17,26 +17,26 @@ To get started with this FTP server and client, follow the instructions below:
 ### Installation
 1. Clone the repository:
 
-git clone https://github.com/mvali99/ftp-server-and-client.git
+    git clone https://github.com/mvali99/ftp-server-and-client.git
 
 2. Navigate to the project directory:
 
-cd ftp-server-and-client
+    cd ftp-server-and-client
 
 3. Compile the server and client code:
 
-gcc -o ftp_server ftp_mt.c -lpthread gcc -o ftp_client ftp_ssh.c -lssh
+    gcc -o ftp_server ftp_mt.c -lpthread gcc -o ftp_client ftp_ssh.c -lssh
 
 
 ### Usage
 To start the FTP server, run:
 
-./ftp_server
+    ./ftp_server
 
 
 To connect to the FTP server using the client with SSH, run:
 
-./ftp_client
+    ./ftp_client
 
 
 ## Contributing
